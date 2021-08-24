@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  margin: 1rem 0 2rem 0;
+}
+.cards {
+  margin-top: 3rem;
+}
+.group01 {
+  margin-top: 1rem;
+  max-width: 22rem;
+}
+.group02 {
+  margin-top: 1rem;
+  max-width: 33rem;
+}
+
+.job {
+  height: 20rem;
+}
+
+.group03 {
+  margin-top: 1rem;
+  max-width: 16rem;
+}
