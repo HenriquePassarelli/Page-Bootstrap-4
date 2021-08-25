@@ -1,12 +1,20 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
   display: flex;
   justify-content: center;
 }
+h1{
+  font-size:4rem;
+}
+.subtitle {
+  font-size:3rem;
+}
+
 
 main {
   margin: 1rem 0 2rem 0;
@@ -30,4 +38,22 @@ main {
 .group03 {
   margin-top: 1rem;
   max-width: 16rem;
+  height: 20rem;
 }
+
+.card {
+  background-color: rgb(240, 240, 240);
+}
+
+form {
+  height:20rem;
+}
+
+@media (max-width: 768px) { 
+  h1{
+    font-size:9vw;
+  }
+  .subtitle {
+    font-size:5vw;
+  }
+ }
